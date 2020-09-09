@@ -1,0 +1,28 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+    <div class="text-center">
+        <h1 class="display-4">Cryptocurrency exchange</h1>
+        <p>
+            Trade
+            <select id="Select1">
+                <option>Bitcoin</option>
+                <option>Ethereum/Classic Ethereum</option>
+                <option>Monero</option>
+                <option>Zcash</option>
+                <option>Bitcoin Cash</option>
+            </select>
+            to
+            <select id="Select2">
+                <option>Bitcoin</option>
+                <option>Ethereum/Classic Ethereum</option>
+                <option>Monero</option>
+                <option>Zcash</option>
+                <option>Bitcoin Cash</option>
+            </select>
+            <input id="Button1" type="button" value="Trade!" action="OnGet()"/>
+        </p>
+    </div>
